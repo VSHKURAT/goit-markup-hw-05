@@ -289,10 +289,6 @@ img {
   padding-top: 0;
 }
 
-.work-item:hover > .work-label {
-  opacity: 1;
-}
-
 .work-label {
   width: 370px;
   height: 70px;
@@ -307,8 +303,6 @@ img {
   padding-bottom: 27px;
   position: absolute;
   bottom: 0;
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* OUR TEAM */
@@ -654,7 +648,7 @@ img {
   height: 100vh;
   background: rgba(0, 0, 0, 0.2);
   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
